@@ -9,14 +9,15 @@ This project will consist of:
 
 ## Start a New Project
 ### 1. Project Setup  
-- Create repo named datafun-04-eda in browser with a default README.md.  
-- Clone repo to local  
+* Create repo named datafun-04-eda in browser with a default README.md.  
+* Clone repo to local  
 ```
 git clone (paste repo URL)
 ```
-- Create .gitignore file in root project folder  
+* Create .gitignore file in root project folder  
  
-- Add requirements.txt in root project folder  
+* Add requirements.txt in root project folder  
+
 Known dependencies for this project:  
 * jupyterlab
 * numpy
@@ -36,7 +37,7 @@ git push
 ```
 
 ## Create Virtual Environment  
-### 1. Create `.venv`
+### 1. Create Virtual Environment
 ```
 py -m venv .venv
 ```
