@@ -28,7 +28,7 @@ Known dependencies for this project:
  
 
 ### 2. Git add-commit-push  
-Push changes from local to GitHub with clear commit message.  
+Push changes from local to GitHub with clear commit message (use this step often).  
 ```
 git add .
 git commit -m "Add a message with a clear and descriptive note about what you added or changed."
