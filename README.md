@@ -38,7 +38,11 @@ git push
 
 ## Create Virtual Environment  
 ### 1. Change Python version to 3.12
-* Change version: `py -3.12`
+* Change version and verify 
+```
+py -3.12
+py --version
+```
 ### 2. Create Virtual Environment
 ```
 py -3.12 -m venv .venv
