@@ -26,7 +26,7 @@ git clone (paste repo URL)
     * matplotlib
     * seaborn
     * scipy
-    * spacy *do not add to requirements.txt, install this separately*
+    * spacy *- Note: Do not add to requirements.txt, install separately.*
  
 ### 2. Git add-commit-push  
 Push changes from local to GitHub with clear commit message (use this step often).  
