@@ -162,7 +162,7 @@ seaborn
 # ======================================================
 
 # Shiny framework for Python applications (~5-10 MB)
-#shiny
+shiny
 
 # ======================================================
 # KAFKA STREAMING MESSAGE BROKER INTEGRATION
@@ -176,21 +176,21 @@ seaborn
 # ======================================================
 
 # Streaming data processing framework (~200-250 MB)
-#pyspark<4.0.0
+pyspark<4.0.0
 
 # ======================================================
 # MACHINE LEARNING (ML)
 # ======================================================
 
 # Core ML library with flexible APIs (~40-50 MB)
-#scikit-learn
+scikit-learn
 
 # ======================================================
 # NATURAL LANGUAGE PROCESSING (NLP) - CAN BE VERY LARGE
 # ======================================================
 
 # NLP library for text processing (~10 MB core library; downloading corpora can add ~1 GB).
-#nltk
+nltk
 
 # SpaCy: A powerful NLP library ~50 MB (core library; language models + ~300 MB or more per model).
 #spacy

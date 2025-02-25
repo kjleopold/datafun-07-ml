@@ -26,8 +26,8 @@ git clone (paste repo URL)
     * matplotlib
     * seaborn
     * scipy
+    * spacy *do not add to requirements.txt, install this separately*
  
-
 ### 2. Git add-commit-push  
 Push changes from local to GitHub with clear commit message (use this step often).  
 ```
@@ -37,16 +37,18 @@ git push
 ```
 
 ## Create Virtual Environment  
-### 1. Create Virtual Environment
+### 1. Change Python version to 3.12
+* Change version: `py -3.12`
+### 2. Create Virtual Environment
 ```
-py -m venv .venv
+py -3.12 -m venv .venv
 ```
-### 2. Activate Virtual Environment  
+### 3. Activate Virtual Environment  
 Always make sure to be in the virtual environment when installing packages and running scripts.  
 ```
 .venv\Scripts\activate
 ```
-### 3. Set VS Code Interpreter
+### 4. Set VS Code Interpreter
 * Open Command Palette: `Ctrl+Shift+P`
 * Search "Python: Select Interpreter"
 * Chose local .venv option  
@@ -57,4 +59,5 @@ Always make sure to be in the virtual environment when installing packages and r
 ```
 py -m pip install --upgrade pip setuptools wheel
 py -m pip install -r requirements.txt
+py -m pip install spacy
 ```
