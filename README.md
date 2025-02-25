@@ -18,14 +18,14 @@ git clone (paste repo URL)
  
 * Add requirements.txt in root project folder  
 
-Known dependencies for this project:  
-* jupyterlab
-* numpy
-* pandas
-* pyarrow
-* matplotlib
-* seaborn
-* scipy
+    Known dependencies for this project:  
+    * jupyterlab
+    * numpy
+    * pandas
+    * pyarrow
+    * matplotlib
+    * seaborn
+    * scipy
  
 
 ### 2. Git add-commit-push  
