@@ -65,7 +65,7 @@ py -m pip install spacy
 ```
 
 ## Implement 10.16 and 15.4 Sections in Textbook
-### Start a New Jupyter Notebook
+### 1. Start a New Jupyter Notebook
 1. Create a new notebook in your repository named yourname_ml.ipynb.
 2. In a Markdown cell at the top of the notebook, add:
     1. The Notebook Title
@@ -73,13 +73,13 @@ py -m pip install spacy
 3. A Clickable Link to your GitHub project repository.
 4. In a Python cell just after, add all your import statements, organized following standard conventions. 
 
-### Chart a Straight Line (Part 1)
+### 2. Chart a Straight Line (Part 1)
 1. Add a Markdown cell with a second-level heading named Part 1 - Chart a Straight Line
 2. Follow the instructions from 10.16 (starting page 414).
 3. Use Markdown cells to create section headings
 4. Use pandas DataFrames to plot Celsius vs Fahrenheit 
 
-### Predict Avg High Temp in NYC in January (Part 2)
+### 3. Predict Avg High Temp in NYC in January (Part 2)
 Use Linear Regression on Average High Temperatures in NYC in January. Read these notes before you start:
 
 1. Continue following the instructions from 10.16 (starting page 416).
@@ -112,7 +112,7 @@ Add a Markdown cell with a second-level heading named Part 2 - Prediction. Use t
     1. Follow the instructions and use Seaborn to generate a scatter plot with a best fit line.
     2. Set the axes and the y scale as directed
 
-### Predict Avg High Temp in NYC in January (Part 3)
+### 4. Predict Avg High Temp in NYC in January (Part 3)
 1. Section 1 - Build the Model
     1. Use test_train_split to split the data into parts for training and testing.
     2. Recommended: Add all imports to the top of the file, just under the Markdown Introduction. Follow conventions. 
@@ -128,7 +128,7 @@ Add a Markdown cell with a second-level heading named Part 2 - Prediction. Use t
     2. Set the axes and the y scale as directed
     3. Customize your chart and notebook as you like to make your work clear and compelling.
 
-### Add Insights (Part 4)
+### 5. Add Insights (Part 4)
 At the end of your notebook, add a second-level Markdown Heading for Part 4 with some remarks comparing the two methods.
 
 1. Excellent analytical skills need professional communication skills to be of maximum benefit. 
