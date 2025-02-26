@@ -37,20 +37,18 @@ git push
 ```
 
 ## Create Virtual Environment  
-### 1. Change Python version to 3.12
-* Change version and verify 
-```
-py -3.12
-py --version
-```
-### 2. Create Virtual Environment
+### 1. Create .venv in Version 3.12  
 ```
 py -3.12 -m venv .venv
 ```
-### 3. Activate Virtual Environment  
+### 2. Activate Virtual Environment  
 Always make sure to be in the virtual environment when installing packages and running scripts.  
 ```
 .venv\Scripts\activate
+```
+### 3. Check Python Version for 3.12
+```
+py --version
 ```
 ### 4. Set VS Code Interpreter
 * Open Command Palette: `Ctrl+Shift+P`
